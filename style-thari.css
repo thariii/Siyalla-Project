@@ -1,0 +1,109 @@
+.form{
+	position: absolute;
+	left: 400px;
+	top: 220px;
+	background: #F2F2F0;
+	width: 700px;
+	height: 400px;
+}
+
+.form h3{
+	position: relative;;
+	left: 50px;
+}
+
+.control-label{
+	margin-right: 40px;
+
+}
+
+.edit-button{
+	position: relative;
+	overflow: visible;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 110px;
+	font: sans-serif;
+	font-weight: bold;
+	color: #fff;
+    text-transform: uppercase;
+    background: #D88F3C;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+.edit-button:hover{
+    background: #FA8807;
+    }
+
+.edit-button:active,
+.edit-button:focus{
+    background: #c42f2f;
+    }
+
+
+.edit-button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #D88F3C transparent;
+    top: 12px;
+    left: -6px;
+    }
+
+.edit-button:hover:before{
+    border-right-color: #FA8807;
+    }
+
+.edit-button:focus:before{
+    border-right-color: #c42f2f;
+    }
+
+.edit-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+    }
+
+#myCarousel.homCar .add img{width:100%; max-height:400px}
+.moreOptopm.carousel .add img{padding:2px; border:1px solid #ddd}
+.moreOptopm.carousel .add img:hover{ border:1px solid pink}
+.carousel .add > img {display:inline;}
+
+.passwordtxt:not(:focus) + .showOnFocus{
+    display: none;
+}
+
+
+.slidebutton{
+    position: relative;
+    bottom: 100px;
+    overflow: visible;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    font: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #D88F3C;
+   
+}
+
+.slidebutton:hover{
+    background: #FA8807;
+    }
+
+.sh:hover  .slidebutton {
+    display: inline-block;
+}
+
+.slidebutton{
+    display: none;
+}
